@@ -15,7 +15,7 @@ Set your xAI Grok API key, then run the pipeline — the Streamlit dashboard ope
 automatically when the run finishes:
 
 ```bash
-cd grok/ACME_invoice_processing
+cd ACME_invoice_processing
 pip install -e ".[dev]"
 
 export XAI_API_KEY=xai-your-key-here          # or: cp .env.example .env and edit it
