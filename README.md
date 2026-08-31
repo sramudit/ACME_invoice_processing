@@ -47,7 +47,7 @@ this run's ledger. Add `--no-dashboard` to skip the launch. See
 Requires Python 3.11+.
 
 ```bash
-cd grok/ACME_invoice_processing
+cd ACME_invoice_processing
 
 # Install (editable); add [dev] for the test tooling
 pip install -e ".[dev]"
@@ -109,7 +109,7 @@ provide it in **one** of these ways:
 your key. The file is git-ignored, and `load_settings` loads it automatically.
 
 ```bash
-cp .env.example .env
+cp env-example.md .env
 # edit .env and set XAI_API_KEY=xai-...
 ```
 
