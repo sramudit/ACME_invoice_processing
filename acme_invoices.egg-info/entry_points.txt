@@ -1,0 +1,2 @@
+[console_scripts]
+acme-invoices = acme_invoices.cli:main
